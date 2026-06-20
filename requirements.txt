@@ -1,0 +1,11 @@
+# Discord TTS Bot — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Discord library (voice support requires PyNaCl)
+discord.py[voice]>=2.3.2
+
+# Supertonic TTS engine
+supertonic>=0.1.0
+
+# Encryption backend for voice (pulled in by discord.py[voice] but listed explicitly)
+PyNaCl>=1.5.0
